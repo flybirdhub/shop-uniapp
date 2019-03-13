@@ -19,4 +19,5 @@
 <style lang="less">
     @import './config/css/uni.css';
     @import './config/css/iconfont.less';
+    @import './config/css/border-1px.less';
 </style>

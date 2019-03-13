@@ -4,7 +4,7 @@
             <view class="t-logo">
                 <img src="@/static/app/navi_title_v4.png">
             </view>
-            <view class="t-search">
+            <view class="t-search" @click="nav('/pages/search/index')">
                 <view class="s-left">
                     <text class="iconfont icon-sousuo"></text>
                     <text>搜索好品，共有16523件商品</text>
