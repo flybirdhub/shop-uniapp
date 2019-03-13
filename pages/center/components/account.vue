@@ -1,6 +1,6 @@
 <template>
     <view class="center-account">
-        <view class="a-left">
+        <view class="a-left" @click="toLogin">
             <view class="l-avatar">
                 <img src="https://m.mi.com/static/img/avatar.76a75b8f17.png" alt="">
             </view>
@@ -16,6 +16,11 @@
 
 <script type="text/ecmascript-6">
     export default {
+        methods: {
+            toLogin () {
+                this.$emit('to-login')
+            }
+        }
     }
 </script>
 

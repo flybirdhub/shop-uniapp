@@ -1,7 +1,7 @@
 <template>
     <view class="center">
         <center-header></center-header>
-        <center-account></center-account>
+        <center-account @to-login="nav('/pages/login/index')"></center-account>
         <center-order></center-order>
         <center-service></center-service>
     </view>
