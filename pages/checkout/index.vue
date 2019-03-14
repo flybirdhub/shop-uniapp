@@ -4,7 +4,7 @@
         <checkout-address></checkout-address>
         <checkout-pay-choice></checkout-pay-choice>
         <checkout-goods></checkout-goods>
-        <checkout-bar></checkout-bar>
+        <checkout-bar @do-pay="doPay"></checkout-bar>
     </view>
 </template>
 
@@ -21,6 +21,11 @@
             checkoutPayChoice: payChoice,
             checkoutGoods: goods,
             checkoutBar: bar
+        },
+        methods: {
+            doPay(){
+                this.rep('/pages/transaction/index')
+            }
         }
     }
 </script>

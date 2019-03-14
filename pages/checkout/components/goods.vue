@@ -26,7 +26,6 @@
                         <span>优惠券/优惠码</span>
                     </div>
                     <div class="cell-right">
-                        <span>{{value}}</span>
                         <i class="iconfont icon-gengduo"></i>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
             <view class="h-left">
                 <text>我的订单</text>
             </view>
-            <view class="h-right">
+            <view class="h-right" @click="nav('/pages/order/index')">
                 <text>全部订单</text>
                 <text class="iconfont icon-gengduo"></text>
             </view>

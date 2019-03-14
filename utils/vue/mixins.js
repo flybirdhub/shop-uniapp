@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 Vue.mixin({
     methods: {
-        nav (s, t = 1) {
+        nav (s) {
             uni.navigateTo({
                 url: s
             })

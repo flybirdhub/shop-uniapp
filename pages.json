@@ -43,6 +43,18 @@
 			}
 		},
 		{
+			"path": "pages/transaction/index",
+			"style": {
+				"navigationBarTitleText": "交易结果"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
 			"path": "pages/center/index",
 			"style": {
 				"navigationBarTitleText": "个人中心",
