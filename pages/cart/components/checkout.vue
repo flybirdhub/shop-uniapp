@@ -10,7 +10,7 @@
                 <span class="r-price">￥452.00</span>
             </div>
         </div>
-        <div class="c-action">
+        <div class="c-action" @click="checkout">
             <span>去结算(2)</span>
         </div>
     </div>
@@ -18,6 +18,11 @@
 
 <script type="text/ecmascript-6">
     export default {
+        methods: {
+            checkout () {
+                this.$emit('do-checkout')
+            }
+        }
     }
 </script>
 

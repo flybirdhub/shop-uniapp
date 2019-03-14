@@ -1,7 +1,7 @@
 <template>
     <view class="search-header">
         <view class="h-top">
-            <view class="t-left">
+            <view class="t-left" @click="back">
                 <i class="iconfont icon-fanhui"></i>
             </view>
             <view class="t-search">

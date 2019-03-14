@@ -37,6 +37,12 @@
 			}
 		},
 		{
+			"path": "pages/checkout/index",
+			"style": {
+				"navigationBarTitleText": "订单确认"
+			}
+		},
+		{
 			"path": "pages/center/index",
 			"style": {
 				"navigationBarTitleText": "个人中心",
@@ -49,6 +55,15 @@
 			"path": "pages/login/index",
 			"style": {
 				"navigationBarTitleText": "登陆",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/goods/index",
+			"style": {
+				"navigationBarTitleText": "商品页",
 				"app-plus": {
 					"titleNView": false
 				}

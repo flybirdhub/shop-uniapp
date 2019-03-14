@@ -1,8 +1,8 @@
 <template>
     <view class="cart">
         <cart-header></cart-header>
-        <cart-checkout></cart-checkout>
         <cart-goods></cart-goods>
+        <cart-checkout @do-checkout="doCheckout"></cart-checkout>
     </view>
 </template>
 
@@ -15,7 +15,12 @@
            cartHeader:header,
            cartCheckout:checkout,
            cartGoods:goods
-       }
+       },
+        methods: {
+            doCheckout(){
+                this.nav('/pages/checkout/index')
+            }
+        }
     }
 </script>
 

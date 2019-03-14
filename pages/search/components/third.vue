@@ -1,7 +1,7 @@
 <template>
     <view class="search-third" v-if="step === 3">
         <view class="t-item border-1px-bottom" :key="key" v-for="(item, key) in 5">
-            <view class="s-goods">
+            <view class="s-goods" @click="nav('/pages/goods/index')">
                 <view class="g-top">
                     <view class="t-pic" data-ratio="1:1">
                         <img src="http://img.youpin.mi-img.com/800_pic/c3c572d31db2e1531e4ad245b33885f1.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF" alt="">
