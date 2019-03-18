@@ -1,23 +1,23 @@
 <template>
-    <div class="goods-header">
-        <div class="header-left">
-            <i class="iconfont icon-fanhui" @click="back"></i>
-        </div>
-        <div class="header-middle">
-            <div class="middle-item middle-item-active">
-                <span>商品</span>
-            </div>
-            <div class="middle-item">
-                <span>详情</span>
-            </div>
-            <div class="middle-item">
-                <span>评价</span>
-            </div>
-        </div>
-        <div class="header-right">
-            <i class="iconfont icon-shouye"></i>
-        </div>
-    </div>
+    <view class="goods-header">
+        <view class="h-left">
+            <text class="iconfont icon-fanhui" @click="back"></text>
+        </view>
+        <view class="h-middle">
+            <view class="m-item m-item-active">
+                <text>商品</text>
+            </view>
+            <view class="m-item">
+                <text>详情</text>
+            </view>
+            <view class="m-item">
+                <text>评价</text>
+            </view>
+        </view>
+        <view class="h-right">
+            <text class="iconfont icon-shouye"></text>
+        </view>
+    </view>
 </template>
 
 <script type="text/ecmascript-6">
@@ -35,12 +35,12 @@
         justify-content: center;
         height: 88upx;
         z-index: 10;
-        .header-left {
+        .h-left {
             position: absolute;
             top: 50%;
             left: 27upx;
             transform: translateY(-50%);
-            i{
+            text{
                 display: inline-block;
                 width:60upx;
                 height: 60upx;
@@ -51,9 +51,9 @@
                 color:white;
             }
         }
-        .header-middle{
+        .h-middle{
             display: flex;
-            .middle-item{
+            .m-item{
                 position: relative;
                 display: flex;
                 align-items: center;
@@ -62,7 +62,7 @@
                     margin-left: 34upx;
                 }
                 &-active{
-                    span{
+                    text{
                         color:#aa8a59;
                     }
                     &::after {
@@ -77,12 +77,12 @@
                 }
             }
         }
-        .header-right {
+        .h-right {
             position: absolute;
             top: 50%;
             right: 27upx;
             transform: translateY(-50%);
-            i{
+            text{
                 display: inline-block;
                 width:60upx;
                 height: 60upx;

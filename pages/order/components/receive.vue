@@ -1,110 +1,110 @@
 <template>
-    <div class="order-receive">
-        <div class="order-cell">
-            <div class="cell-time-status">
-                <div class="cell-time">
-                    <span>2018-08-06 16:57</span>
-                </div>
-                <div class="cell-status">
-                    <span>已支付支付</span>
-                </div>
-            </div>
-            <div class="cell-goods border-1px-top">
-                <div class="goods-item">
-                    <div class="item-pic">
-                        <img class="ignore" src="https://static.home.mi.com/app/shop/img?id=shop_f4e9e198a07c9888cd3a4295a0f54b0b.jpeg&w=240&h=240" alt="">
-                    </div>
-                    <div class="item-info">
-                        <div class="info-name">
-                            <h3>米家机器人扫地边刷</h3>
-                        </div>
-                    </div>
-                    <div class="item-price-num">
-                        <span class="single-price">￥39</span>
-                        <span class="num">x1</span>
-                    </div>
-                </div>
-                <div class="goods-item">
-                    <div class="item-pic">
-                        <img class="ignore" src="https://static.home.mi.com/app/shop/img?id=shop_4fc6ea862ee2da95bb2926c635ccb85f.jpeg&w=240&h=240" alt="">
-                    </div>
-                    <div class="item-info">
-                        <div class="info-name">
-                            <h3>米家扫地机器人主刷罩</h3>
-                        </div>
-                    </div>
-                    <div class="item-price-num">
-                        <span class="single-price">￥29</span>
-                        <span class="num">x1</span>
-                    </div>
-                </div>
-            </div>
-            <div class="cell-price">
-                <div class="price-total">
-                    <p>共2件商品，总金额<span>￥78</span></p>
-                </div>
-                <div class="price-transfer">
-                    <span>（含运费￥10）</span>
-                </div>
-            </div>
-            <div class="cell-action border-1px-top">
-                <div class="expire-time">
-                    <span>24小时候订单将关闭</span>
-                </div>
-                <div class="action-btns">
-                    <span>取消</span>
-                    <span>去支付</span>
-                </div>
-            </div>
-        </div>
-    </div>
+    <view class="order-receive">
+        <view class="o-cell">
+            <view class="c-time-status">
+                <view class="c-time">
+                    <text>2018-08-06 16:57</text>
+                </view>
+                <view class="c-status">
+                    <text>已支付支付</text>
+                </view>
+            </view>
+            <view class="c-goods border-1px-top">
+                <view class="g-item">
+                    <view class="i-pic">
+                        <img src="https://static.home.mi.com/app/shop/img?id=shop_f4e9e198a07c9888cd3a4295a0f54b0b.jpeg&w=240&h=240" alt="">
+                    </view>
+                    <view class="i-info">
+                        <view class="i-name">
+                            <text>米家机器人扫地边刷</text>
+                        </view>
+                    </view>
+                    <view class="i-price-num">
+                        <text class="single-price">￥39</text>
+                        <text class="num">x1</text>
+                    </view>
+                </view>
+                <view class="g-item">
+                    <view class="i-pic">
+                        <img src="https://static.home.mi.com/app/shop/img?id=shop_f4e9e198a07c9888cd3a4295a0f54b0b.jpeg&w=240&h=240" alt="">
+                    </view>
+                    <view class="i-info">
+                        <view class="i-name">
+                            <text>米家机器人扫地边刷</text>
+                        </view>
+                    </view>
+                    <view class="i-price-num">
+                        <text class="single-price">￥39</text>
+                        <text class="num">x1</text>
+                    </view>
+                </view>
+            </view>
+            <view class="c-price">
+                <view class="p-total">
+                    <view>共2件商品，总金额<text>￥78</text></view>
+                </view>
+                <view class="p-transfer">
+                    <text>（含运费￥10）</text>
+                </view>
+            </view>
+            <view class="c-action border-1px-top">
+                <view class="expire-time">
+                    <text>24小时候订单将关闭</text>
+                </view>
+                <view class="action-btns">
+                    <text>取消</text>
+                    <text>去支付</text>
+                </view>
+            </view>
+        </view>
+    </view>
 </template>
 
 <style lang="less" scoped>
     .order-receive{
         padding-top: 97upx;
-        .order-cell{
+        .o-cell{
             padding:0 28upx;
             background: white;
-            .cell-time-status{
+            .c-time-status{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 height: 90upx;
-                .cell-time{
-                    span{
+                .c-time{
+                    text{
                         color:#666;
                     }
                 }
-                .cell-status{
-                    span{
+                .c-status{
+                    text{
                         color:#845f3f;
                     }
                 }
             }
-            .cell-goods{
-                .goods-item{
+            .c-goods{
+                .g-item{
                     display: flex;
                     padding-top: 20upx;
-                    .item-pic{
+                    .i-pic{
                         flex-basis: 166upx;
                         height: 166upx;
-                        .ignore{
+                        img{
                             width:100%;
                             height:100%;
                         }
                     }
-                    .item-info{
+                    .i-info{
                         flex:1;
-                        .info-name{
+                        .i-name{
                             padding-top:20upx;
-                            h3{
+                            text{
                                 font-weight: 600;
                                 color:#333;
                             }
                         }
                     }
-                    .item-price-num{
+                    .i-price-num{
                         display: flex;
                         flex-direction: column;
                         align-items: flex-end;
@@ -123,26 +123,26 @@
                     }
                 }
             }
-            .cell-price{
-                .price-total{
+            .c-price{
+                .p-total{
                     padding-top:35upx;
-                    p{
+                    view{
                         text-align: right;
                         color:#333;
-                        span{
+                        text{
                             font-size: 28upx;
                             font-weight: 600;
                             color:rgb(182, 9, 9);
                         }
                     }
                 }
-                .price-transfer{
+                .p-transfer{
                     padding:20upx 0;
                     text-align: right;
                     color:#333;
                 }
             }
-            .cell-action{
+            .c-action{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -153,7 +153,7 @@
                 .action-btns{
                     display: flex;
                     align-items: center;
-                    span{
+                    text{
                         display: inline-block;
                         width:170upx;
                         height: 60upx;

@@ -93,32 +93,32 @@
 	},
 	"tabBar": {
 		"color": "#7A7E83",
-		"selectedColor": "#007AFF",
+		"selectedColor": "#b4282d",
 		"borderStyle": "black",
 		"backgroundColor": "#F8F8F8",
 		"list": [
 			{
 				"pagePath": "pages/index/index",
-				"iconPath": "static/component.png",
-				"selectedIconPath": "static/componentHL.png",
+				"iconPath": "static/app/home.png",
+				"selectedIconPath": "static/app/home-a.png",
 				"text": "首页"
 			},
 			{
 				"pagePath": "pages/category/index",
-				"iconPath": "static/component.png",
-				"selectedIconPath": "static/componentHL.png",
+				"iconPath": "static/app/category.png",
+				"selectedIconPath": "static/app/category-a.png",
 				"text": "分类"
 			},
 			{
 				"pagePath": "pages/cart/index",
-				"iconPath": "static/component.png",
-				"selectedIconPath": "static/componentHL.png",
+				"iconPath": "static/app/cart.png",
+				"selectedIconPath": "static/app/cart-a.png",
 				"text": "购物车"
 			},
 			{
 				"pagePath": "pages/center/index",
-				"iconPath": "static/component.png",
-				"selectedIconPath": "static/componentHL.png",
+				"iconPath": "static/app/center.png",
+				"selectedIconPath": "static/app/center-a.png",
 				"text": "个人中心"
 			}
 		]

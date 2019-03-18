@@ -1,22 +1,22 @@
 <template>
-    <div class="order-type border-1px-bottom">
-        <div class="type-item" :class="{'type-item-active': currentType === 0}" @click="changeType(0)">
-            <span>全部订单</span>
-        </div>
-        <div class="type-item" :class="{'type-item-active': currentType === 1}" @click="changeType(1)">
-            <span>待付款</span>
-        </div>
-        <div class="type-item" :class="{'type-item-active': currentType === 2}" @click="changeType(2)">
-            <span>待收货</span>
-            <label>1</label>
-        </div>
-        <div class="type-item" :class="{'type-item-active': currentType === 3}" @click="changeType(3)">
-            <span>已收货</span>
-        </div>
-        <div class="type-item" :class="{'type-item-active': currentType === 4}" @click="changeType(4)">
-            <span>退款订单</span>
-        </div>
-    </div>
+    <view class="order-type border-1px-bottom">
+        <view class="t-item" :class="{'t-item-active': currentType === 0}" @click="changeType(0)">
+            <text>全部订单</text>
+        </view>
+        <view class="t-item" :class="{'t-item-active': currentType === 1}" @click="changeType(1)">
+            <text>待付款</text>
+        </view>
+        <view class="t-item" :class="{'t-item-active': currentType === 2}" @click="changeType(2)">
+            <text class="i-text">待收货</text>
+            <text class="i-tag">1</text>
+        </view>
+        <view class="t-item" :class="{'t-item-active': currentType === 3}" @click="changeType(3)">
+            <text>已收货</text>
+        </view>
+        <view class="t-item" :class="{'t-item-active': currentType === 4}" @click="changeType(4)">
+            <text>退款订单</text>
+        </view>
+    </view>
 </template>
 
 <script type="text/ecmascript-6">
@@ -48,15 +48,15 @@
         box-sizing: border-box;
         padding:0 28upx;
         background: white;
-        .type-item{
+        .t-item{
             position: relative;
             display: flex;
             align-items: center;
             flex-grow: 0;
-            span{
+            .i-text{
                 color:#666;
             }
-            label{
+            .i-tag{
                 position: absolute;
                 top:10upx;
                 right:-40upx;

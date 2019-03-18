@@ -1,17 +1,17 @@
 <template>
-    <div class="goods-count">
-        <div class="goods-cell">
-            <div class="cell-left">
-                <span>数量：</span>
-            </div>
-            <div class="cell-mid">
-                <span>1</span>
-            </div>
-            <div class="cell-right">
-                <i class="iconfont icon-gengduo"></i>
-            </div>
-        </div>
-    </div>
+    <view class="goods-count">
+        <view class="g-cell">
+            <view class="c-left">
+                <text>数量：</text>
+            </view>
+            <view class="c-mid">
+                <text>1</text>
+            </view>
+            <view class="c-right">
+                <text class="iconfont icon-gengduo"></text>
+            </view>
+        </view>
+    </view>
 </template>
 
 <script type="text/ecmascript-6">
@@ -24,29 +24,29 @@
     .goods-count {
         margin-bottom: 10upx;
         background: white;
-        .goods-cell{
+        .g-cell{
             display: flex;
             min-height: 80upx;
             padding:0 28upx;
-            .cell-left{
+            .c-left{
                 display: flex;
                 align-items: center;
                 flex-basis: 93upx;
-                span{
+                text{
                     color:#666;
                 }
             }
-            .cell-mid{
+            .c-mid{
                 display: flex;
                 align-items: center;
                 flex:1;
             }
-            .cell-right{
+            .c-right{
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
                 flex-basis: 40upx;
-                i{
+                text{
                     font-size: 24upx;
                     color:#666;
                 }

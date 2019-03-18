@@ -1,12 +1,12 @@
 <template>
-    <div class="account-warm">
-        <div class="warm-text">
-            <p>公告：任何索要账户、密码或要求转账等均是诈骗行为。提高安全意识，谨防诈骗！</p>
-        </div>
-        <div class="warm-close">
-            <i class="iconfont icon-jinggao"></i>
-        </div>
-    </div>
+    <view class="account-warm">
+        <view class="w-text">
+            <text>公告：任何索要账户、密码或要求转账等均是诈骗行为。提高安全意识，谨防诈骗！</text>
+        </view>
+        <view class="w-close">
+            <text class="iconfont icon-jinggao"></text>
+        </view>
+    </view>
 </template>
 
 <style lang="less" scoped>
@@ -21,11 +21,11 @@
         padding:0 28upx;
         background: #f67f79;
         color:white;
-        .warm-text{
+        .w-text{
             display: flex;
             align-items: center;
         }
-        .warm-close{
+        .w-close{
             display: flex;
             align-items: center;
             justify-content: flex-end;

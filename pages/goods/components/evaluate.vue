@@ -1,67 +1,67 @@
 <template>
-    <div class="goods-evaluate">
-        <div class="evaluate-header">
-            <div class="header-left">
-                <span>用户评价（1763）</span>
-            </div>
-            <div class="header-right">
-                <span>98%满意</span>
-                <i class="iconfont icon-gengduo"></i>
-            </div>
-        </div>
-        <div class="evaluate-content">
+    <view class="goods-evaluate">
+        <view class="e-header">
+            <view class="h-left">
+                <text>用户评价（1763）</text>
+            </view>
+            <view class="h-right">
+                <text>98%满意</text>
+                <text class="iconfont icon-gengduo"></text>
+            </view>
+        </view>
+        <view class="e-content">
             <scroll-view :scroll-x="true">
-                <div class="content-wrap">
-                    <div class="wrap-item">
-                        <div class="evaluate-card">
-                            <div class="card-user">
-                                <div class="user-avatar">
+                <view class="c-wrap">
+                    <view class="w-item">
+                        <view class="e-card">
+                            <view class="c-user">
+                                <view class="u-avatar">
                                     <img src="https://s1.mi-img.com/mfsv2/avatar/s008/p01amyF87qXf/793p8cAufflQSe.jpg" alt="">
-                                </div>
-                                <div class="user-name">
-                                    <span>T*****rstruck</span>
-                                </div>
-                                <div class="user-star">
+                                </view>
+                                <view class="u-name">
+                                    <text>T*****rstruck</text>
+                                </view>
+                                <view class="u-star">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-text">
-                                <p>手机性价比很高。优点有很多，缺点也很多，总体OK。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wrap-item">
-                        <div class="evaluate-card">
-                            <div class="card-user">
-                                <div class="user-avatar">
+                                </view>
+                            </view>
+                            <view class="c-text">
+                                <text>手机性价比很高。优点有很多，缺点也很多，总体OK。</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="w-item">
+                        <view class="e-card">
+                            <view class="c-user">
+                                <view class="u-avatar">
                                     <img src="https://s1.mi-img.com/mfsv2/avatar/s008/p01amyF87qXf/793p8cAufflQSe.jpg" alt="">
-                                </div>
-                                <div class="user-name">
-                                    <span>T*****rstruck</span>
-                                </div>
-                                <div class="user-star">
+                                </view>
+                                <view class="u-name">
+                                    <text>T*****rstruck</text>
+                                </view>
+                                <view class="u-star">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
                                     <img src="https://static.home.mi.com/youpin/static/m/res/images/evaluation_btn_level.a_sel_light.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-text">
-                                <p>手机性价比很高。优点有很多，缺点也很多，总体OK。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                </view>
+                            </view>
+                            <view class="c-text">
+                                <text>手机性价比很高。优点有很多，缺点也很多，总体OK。</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
             </scroll-view>
-        </div>
-        <div class="evaluate-footer">
-            <span>查看更多</span>
-            <i class="iconfont icon-gengduo"></i>
-        </div>
-    </div>
+        </view>
+        <view class="e-footer">
+            <text>查看更多</text>
+            <text class="iconfont icon-gengduo"></text>
+        </view>
+    </view>
 </template>
 
 <script type="text/ecmascript-6">
@@ -72,49 +72,49 @@
 <style lang="less">
     .goods-evaluate{
         margin-bottom: 10upx;
-        .evaluate-header{
+        .e-header{
             display: flex;
             justify-content: space-between;
             align-items: center;
             height: 99upx;
             padding:0 28px;
             background: white;
-            .header-left{
+            .h-left{
                 display: flex;
                 align-items: center;
-                span{
+                text{
                     font-size: 28upx;
                     font-weight: 600;
                     color:#333;
                 }
             }
-            .header-right{
+            .h-right{
                 display: flex;
                 align-items: center;
                 color:#aa8a59;
-                i{
+                text{
                     font-size: 24upx;
                 }
             }
         }
-        .evaluate-content{
+        .e-content{
             background: white;
-            .content-wrap {
+            .c-wrap {
                 white-space: nowrap;
-                .wrap-item {
+                .w-item {
                     display: inline-block;
                     width: 620upx;
                     height: 352upx;
                     margin-left: 28upx;
-                    .evaluate-card{
+                    .e-card{
                         height: 100%;
                         box-sizing: border-box;
                         padding:28upx;
                         background: #f8f8f8;
-                        .card-user{
+                        .c-user{
                             display: flex;
                             align-items: center;
-                            .user-avatar{
+                            .u-avatar{
                                 display: inline-block;
                                 height: 70upx;
                                 width:70upx;
@@ -124,10 +124,10 @@
                                     border-radius: 50%;
                                 }
                             }
-                            .user-name{
+                            .u-name{
                                 padding:0 15upx;
                             }
-                            .user-star{
+                            .u-star{
                                 display: flex;
                                 align-items: center;
                                 img{
@@ -136,9 +136,9 @@
                                 }
                             }
                         }
-                        .card-text{
+                        .c-text{
                             padding-top:28upx;
-                            p{
+                            text{
                                 white-space:normal;
                                 color:#333;
                             }
@@ -150,14 +150,14 @@
                 }
             }
         }
-        .evaluate-footer{
+        .e-footer{
             display: flex;
             justify-content: center;
             align-items: center;
             height: 99upx;
             background: white;
             color:#aa8a59;
-            i{
+            text{
                 font-size: 24upx;
             }
         }

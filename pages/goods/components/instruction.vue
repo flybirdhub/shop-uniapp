@@ -1,30 +1,30 @@
 <template>
-    <div class="goods-instruction">
-        <div class="goods-cell">
-            <div class="cell-left">
-                <span>说明：</span>
-            </div>
-            <div class="cell-mid">
-                <div class="instruction">
-                    <div class="instruction-item">
-                        <i class="iconfont icon-xuanze1"></i>
-                        <p>小米有品甄选精品</p>
-                    </div>
-                    <div class="instruction-item">
-                        <i class="iconfont icon-xuanze1"></i>
-                        <p>由 小米 发货并提供售后</p>
-                    </div>
-                    <div class="instruction-item">
-                        <i class="iconfont icon-xuanze1"></i>
-                        <p>支持7天无理由退货（请参考商品详情-常见问题）</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cell-right">
+    <view class="goods-instruction">
+        <view class="g-cell">
+            <view class="c-left">
+                <text>说明：</text>
+            </view>
+            <view class="c-mid">
+                <view class="instruction">
+                    <view class="i-item">
+                        <text class="iconfont icon-xuanze1"></text>
+                        <text class="text">小米有品甄选精品</text>
+                    </view>
+                    <view class="i-item">
+                        <text class="iconfont icon-xuanze1"></text>
+                        <text class="text">由 小米 发货并提供售后</text>
+                    </view>
+                    <view class="i-item">
+                        <text class="iconfont icon-xuanze1"></text>
+                        <text class="text">支持7天无理由退货（请参考商品详情-常见问题）</text>
+                    </view>
+                </view>
+            </view>
+            <view class="c-right">
                 <i class="iconfont icon-gengduo"></i>
-            </div>
-        </div>
-    </div>
+            </view>
+        </view>
+    </view>
 </template>
 
 <script type="text/ecmascript-6">
@@ -36,31 +36,31 @@
     .goods-instruction{
         margin-bottom:10upx;
         background: white;
-        .goods-cell{
+        .g-cell{
             display: flex;
             min-height: 80upx;
             padding:0 28upx;
-            .cell-left{
+            .c-left{
                 display: flex;
                 align-items: center;
                 flex-basis: 93upx;
-                span{
+                text{
                     color:#666;
                 }
             }
-            .cell-mid{
+            .c-mid{
                 display: flex;
                 align-items: center;
                 flex:1;
                 .instruction{
                     padding:20upx 0;
-                    .instruction-item{
+                    .i-item{
                         display: flex;
-                        i{
+                        .iconfont{
                             font-size: 24upx;
                             color:#ab8959;
                         }
-                        p{
+                        .text{
                             padding-left:5upx;
                             color:#333;
                         }
@@ -70,7 +70,7 @@
                     }
                 }
             }
-            .cell-right{
+            .c-right{
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;

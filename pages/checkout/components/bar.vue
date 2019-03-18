@@ -1,13 +1,13 @@
 <template>
-    <div class="checkout-pay">
-        <div class="pay-info">
-            <span class="info-text">合计</span>
-            <span class="info-price">￥1236.00</span>
-        </div>
-        <div class="pay-action" @click="pay">
-            <span>去支付</span>
-        </div>
-    </div>
+    <view class="checkout-pay">
+        <view class="p-info">
+            <text class="i-text">合计</text>
+            <text class="i-price">￥1236.00</text>
+        </view>
+        <view class="p-action" @click="pay">
+            <text>去支付</text>
+        </view>
+    </view>
 </template>
 
 <script type="text/ecmascript-6">
@@ -29,23 +29,23 @@
         width:100%;
         height: 110upx;
         background: white;
-        .pay-info{
+        .p-info{
             display: flex;
             align-items: center;
             flex:1;
             padding-left:28upx;
-            .info-price{
+            .i-price{
                 font-size: 28upx;
                 color:#b60a0a;
             }
         }
-        .pay-action{
+        .p-action{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-basis: 210upx;
             background: #b60a0a;
-            span{
+            text{
                 color:white;
             }
         }

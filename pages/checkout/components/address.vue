@@ -1,18 +1,18 @@
 <template>
-    <div class="checkout-address">
-        <div class="address-left">
-            <div class="left-top">
-                <h4>邓海标</h4>
-                <span>136******30</span>
-            </div>
-            <div class="left-bottom">
-                <p>中国 广东 佛山 顺德 北滘镇莘村中学（528300）</p>
-            </div>
-        </div>
-        <div class="address-right">
-            <i class="iconfont icon-gengduo"></i>
-        </div>
-    </div>
+    <view class="checkout-address">
+        <view class="a-left">
+            <view class="l-top">
+                <text class="t-name">邓海标</text>
+                <text class="t-phone">136******30</text>
+            </view>
+            <view class="l-bottom">
+                <text>中国 广东 佛山 顺德 北滘镇莘村中学（528300）</text>
+            </view>
+        </view>
+        <view class="a-right">
+            <text class="iconfont icon-gengduo"></text>
+        </view>
+    </view>
 </template>
 
 <script type="text/ecmascript-6">
@@ -27,25 +27,25 @@
         padding:90upx 28upx 0 28upx;
         margin-bottom: 10upx;
         background: white;
-        .address-left{
+        .a-left{
             display: flex;
             flex-direction: column;
             justify-content: center;
             flex:1;
-            .left-top{
+            .l-top{
                 display: flex;
                 justify-content: space-between;
                 font-size: 28upx;
                 font-weight: 600;
                 color:#333;
             }
-            .left-bottom{
+            .l-bottom{
                 padding-top:20upx;
                 font-size: 28upx;
                 color:#666;
             }
         }
-        .address-right{
+        .a-right{
             display: flex;
             align-items: center;
             flex-grow: 0;
