@@ -26,7 +26,6 @@
         height: 214upx;
         padding:90upx 28upx 0 28upx;
         margin-bottom: 10upx;
-        font-size: 28upx;
         background: white;
         .a-left{
             display: flex;
@@ -36,13 +35,11 @@
             .l-top{
                 display: flex;
                 justify-content: space-between;
-                font-size: 28upx;
                 font-weight: 600;
                 color:#333;
             }
             .l-bottom{
                 padding-top:20upx;
-                font-size: 28upx;
                 color:#666;
             }
         }

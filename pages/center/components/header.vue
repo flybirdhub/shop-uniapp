@@ -17,10 +17,6 @@
         left:0;
         width:100%;
         height: 88upx;
-        /* #ifdef APP-PLUS */
-        height: 158upx;
-        padding-top: 70upx;
-        /* #endif */
         z-index: 10;
         .h-right {
             position: absolute;

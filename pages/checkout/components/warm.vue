@@ -26,7 +26,6 @@
         box-sizing: border-box;
         height: 90upx;
         padding:0 28upx;
-        font-size: 28upx;
         background: #f67f79;
         color:white;
         .w-text{

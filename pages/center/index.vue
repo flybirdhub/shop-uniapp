@@ -1,5 +1,5 @@
 <template>
-    <view class="center">
+    <view class="page center">
         <center-header></center-header>
         <center-account @to-login="nav('/pages/login/index')"></center-account>
         <center-order></center-order>
@@ -21,3 +21,11 @@
         }
     }
 </script>
+
+<style lang="less">
+    @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/center/index';
+    /* #endif */
+</style>
+

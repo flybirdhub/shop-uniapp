@@ -69,9 +69,6 @@
                     align-items: center;
                     height: 41upx;
                     margin-top: 10upx;
-                    text{
-                        font-size: 28upx;
-                    }
                 }
                 &:not(:nth-child(3n+1)){
                     margin-left: 20upx;

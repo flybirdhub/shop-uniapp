@@ -23,7 +23,6 @@
     .goods-info{
         padding:28upx;
         margin-bottom: 10upx;
-        font-size: 28upx;
         background: white;
         .i-name{
             text{

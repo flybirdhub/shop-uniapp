@@ -51,7 +51,6 @@
 <style lang="less" scoped>
     .transaction-info{
         padding:43upx;
-        font-size: 28upx;
         background: white;
         .info-item{
             display: flex;

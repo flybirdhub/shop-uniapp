@@ -25,16 +25,14 @@
         left:0;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         height: 88upx;
         width:100%;
+        box-sizing: border-box;
+        padding: 0 30upx;
         background: white;
         z-index: 10;
         .h-left {
-            position: absolute;
-            top: 50%;
-            left: 27upx;
-            transform: translateY(-50%);
             text {
                 font-size: 55upx;
                 color: #333;
@@ -47,10 +45,6 @@
             }
         }
         .h-right {
-            position: absolute;
-            top: 50%;
-            right: 27upx;
-            transform: translateY(-50%);
             text {
                 font-size: 55upx;
                 color: #333;

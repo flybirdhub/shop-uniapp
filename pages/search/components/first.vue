@@ -43,10 +43,6 @@
     @import '../../../config/css/var';
     .search-first{
         padding-top: 88upx;
-        /* #ifdef APP-PLUS */
-        padding-top: 158upx;
-        /* #endif */
-        font-size: 28upx;
         .s-section{
             background: #f4f4f4;
             .s-header{

@@ -18,9 +18,6 @@
         justify-content: center;
         height: 88upx;
         padding:0 28upx;
-        /* #ifdef APP-PLUS */
-       padding-top: 70upx;
-        /* #endif */
         background: white;
         .header-search{
             display: flex;
@@ -35,7 +32,6 @@
             }
             .keyword{
                 padding-left:20px;
-                font-size: 28upx;
                 color:#999;
             }
         }

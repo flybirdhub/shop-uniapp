@@ -59,10 +59,6 @@
 <style lang="less" scoped>
     .search-second{
         padding-top: 88upx;
-        /* #ifdef APP-PLUS */
-        padding-top: 158upx;
-        /* #endif */
-        font-size: 28upx;
         .s-section{
             background: #f4f4f4;
             .s-header{
@@ -111,7 +107,6 @@
                         flex: 1;
 
                         h4 {
-                            font-size: 28upx;
                             color: #333;
                         }
 
@@ -140,7 +135,6 @@
                             align-items: center;
 
                             view {
-                                font-size: 28upx;
                                 color: #333;
                             }
                         }

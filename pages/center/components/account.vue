@@ -28,10 +28,6 @@
     .center-account{
         position: relative;
         height: 277upx;
-        /* #ifdef APP-PLUS */
-        height: 347upx;
-        padding-top: 70upx;
-        /* #endif */
         background: url('https://m.mi.com/static/img/bg.63c8e19851.png') center 0 #f37d0f;
         background-size: 100% 100%;
         .a-left{
@@ -54,7 +50,6 @@
             .l-name{
                 padding-left:28upx;
                 text{
-                    font-size: 28upx;
                     font-weight: 600;
                     color:white;
                 }

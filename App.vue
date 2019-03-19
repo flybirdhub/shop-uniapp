@@ -17,6 +17,5 @@
 </script>
 
 <style lang="less">
-    @import 'config/css/eosfont.less';
-    @import './config/css/border-1px.less';
+    @import 'config/css/index.less';
 </style>

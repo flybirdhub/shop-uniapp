@@ -1,5 +1,5 @@
 <template>
-    <view class="checkout">
+    <view class="page checkout">
         <checkout-warm></checkout-warm>
         <checkout-address></checkout-address>
         <checkout-pay-choice></checkout-pay-choice>
@@ -31,7 +31,7 @@
 </script>
 
 <style lang="less">
-    @import '../../config/css/var';
+    @import '../../config/css/index';
     .checkout{
         min-height: calc(100vh - 44px);
         background: @bg-color;

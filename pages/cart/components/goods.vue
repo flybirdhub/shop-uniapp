@@ -52,9 +52,6 @@
 <style lang="less">
     .cart-goods {
         padding-top: 88upx;
-        /* #ifdef APP-PLUS */
-        padding-top: 158upx;
-        /* #endif */
         .g-group {
             background: white;
             .g-header {
@@ -71,7 +68,6 @@
                     }
                     .l-text{
                         padding-left: 10upx;
-                        font-size: 28upx;
                         font-weight: 600;
                         color: #333;
                     }
@@ -82,7 +78,6 @@
                     color: #666;
                     text {
                         padding-left: 10upx;
-                        font-size: 28upx;
                     }
                 }
             }
@@ -117,7 +112,6 @@
                         padding: 0 10upx;
                         .info-name {
                             text {
-                                font-size: 28upx;
                                 font-weight: 600;
                                 color: #333;
                             }

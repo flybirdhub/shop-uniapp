@@ -46,7 +46,6 @@
                 .l-name{
                     display: inline-block;
                     padding:0 20upx;
-                    font-size: 28upx;
                     font-weight: 600;
                     color:#333;
                 }
@@ -56,7 +55,6 @@
                     line-height: 33upx;
                     padding:0 10upx;
                     border-radius: 5upx;
-                    font-size: 28upx;
                     background: #cd363d;
                     color:white;
                 }

@@ -72,7 +72,6 @@
 <style lang="less">
     .goods-evaluate{
         margin-bottom: 10upx;
-        font-size: 28upx;
         .e-header{
             display: flex;
             justify-content: space-between;
@@ -84,7 +83,6 @@
                 display: flex;
                 align-items: center;
                 text{
-                    font-size: 28upx;
                     font-weight: 600;
                     color:#333;
                 }

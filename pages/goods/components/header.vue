@@ -34,10 +34,6 @@
         display: flex;
         justify-content: center;
         height: 88upx;
-        /* #ifdef APP-PLUS */
-        margin-top: 70upx;
-        /* #endif */
-        font-size: 28upx;
         z-index: 10;
         .h-left {
             position: absolute;

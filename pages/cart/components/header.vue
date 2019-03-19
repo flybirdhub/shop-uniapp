@@ -1,5 +1,6 @@
 <template>
     <view class="cart-header">
+        <div class="h-left"></div>
         <view class="h-mid">
             <text>购物车</text>
         </view>
@@ -21,12 +22,11 @@
         left:0;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         height: 88upx;
+        box-sizing: border-box;
         width:100%;
-        /* #ifdef APP-PLUS */
-        padding-top: 70upx;
-        /* #endif */
+        padding: 0 30upx;
         background: white;
         .h-mid{
             text{
@@ -35,13 +35,6 @@
             }
         }
         .h-right{
-            position: absolute;
-            top:50%;
-            /* #ifdef APP-PLUS */
-            top:114upx;
-            /* #endif */
-            right:30upx;
-            transform: translateY(-50%);
             text{
                 font-size: 32upx;
                 color:#b60a0a;

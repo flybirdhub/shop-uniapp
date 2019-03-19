@@ -1,5 +1,5 @@
 <template>
-    <view class="search">
+    <view class="page search">
         <search-header
                 :step="currentStep"
                 @keyword-change="keywordChange"
@@ -38,3 +38,10 @@
         }
     }
 </script>
+
+<style lang="less">
+    @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/search/index';
+    /* #endif */
+</style>

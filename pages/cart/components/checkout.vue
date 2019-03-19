@@ -30,15 +30,11 @@
     .cart-checkout{
         position: fixed;
         bottom:50px;
-        /* #ifdef APP-PLUS */
-        bottom:0;
-        /* #endif */
         left:0;
         display: flex;
         width:100%;
         height: 110upx;
         background: white;
-        font-size: 28upx;
         .c-info{
             position: relative;
             flex:1;

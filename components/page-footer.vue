@@ -16,6 +16,7 @@
 </script>
 
 <style lang="less" scoped>
+    @import '../config/css/index';
     .page-footer{
         padding:54upx 20upx 28upx 20upx;
         margin-top: 20upx;

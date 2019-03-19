@@ -1,5 +1,5 @@
 <template>
-    <view class="cart">
+    <view class="page cart">
         <cart-header></cart-header>
         <cart-goods></cart-goods>
         <cart-checkout @do-checkout="doCheckout"></cart-checkout>
@@ -25,7 +25,10 @@
 </script>
 
 <style lang="less">
-    @import '../../config/css/var';
+    @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/cart/index';
+    /* #endif */
     .cart{
         min-height: calc(100vh - 50px);
         background: @bg-color;

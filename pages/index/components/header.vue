@@ -2,7 +2,7 @@
     <view class="index-header">
         <view class="h-top">
             <view class="t-logo">
-                <img src="@/static/app/navi_title_v4.png">
+                <img src="../../../static/app/navi_title_v4.png">
             </view>
             <view class="t-search" @click="nav('/pages/search/index')">
                 <view class="s-left">
@@ -31,7 +31,7 @@
     }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
     .index-header {
         position: fixed;
         top:0;
@@ -44,15 +44,14 @@
             align-items: center;
             height: 88upx;
             padding: 0 27upx;
-            /* #ifdef APP-PLUS */
-            padding-top: 70upx;
-            /* #endif */
             .t-logo {
                 flex-basis: 160upx;
+                height: 58upx;
                 box-sizing: border-box;
                 padding-right: 20upx;
                 img {
                     width: 100%;
+                    height: 100%;
                 }
             }
             .t-search {
@@ -73,7 +72,6 @@
                     }
                     .l-text {
                         white-space: nowrap;
-                        font-size: 28upx;
                         color: #c8c8c8;
                     }
                 }
@@ -93,7 +91,6 @@
                     line-height: 60upx;
                     text {
                         font-weight: 400;
-                        font-size: 28upx;
                     }
                     &-active {
                         position: relative;

@@ -1,5 +1,5 @@
 <template>
-    <view class="goods-action border-1px-top">
+    <view class="goods-action">
         <view class="a-left">
             <view class="l-item">
                 <text class="eosfont">&#xe636;</text>
@@ -39,7 +39,6 @@
         width:100%;
         box-sizing: border-box;
         padding:0 28upx;
-        font-size: 28upx;
         background: white;
         .a-left{
             display: flex;

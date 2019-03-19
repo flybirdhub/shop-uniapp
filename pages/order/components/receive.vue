@@ -69,7 +69,6 @@
         padding-top: 97upx;
         .o-cell{
             padding:0 28upx;
-            font-size: 28upx;
             background: white;
             .c-time-status{
                 display: flex;
@@ -135,7 +134,6 @@
                         text-align: right;
                         color:#333;
                         text{
-                            font-size: 28upx;
                             font-weight: 600;
                             color:rgb(182, 9, 9);
                         }

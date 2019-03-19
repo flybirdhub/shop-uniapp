@@ -65,10 +65,6 @@
         width:100%;
         box-sizing: border-box;
         padding: 0 28upx;
-        /* #ifdef APP-PLUS */
-        padding-top: 70upx;
-        /* #endif */
-        font-size: 28upx;
         background: white;
         z-index: 10;
         .h-top {
@@ -136,11 +132,6 @@
                 justify-content: center;
                 flex: 1;
                 color: #666;
-                .i-text{
-                    text {
-                        font-size: 28upx;
-                    }
-                }
                 .i-icon{
                     display: flex;
                     flex-direction: column;

@@ -1,5 +1,5 @@
 <template>
-    <view class="transaction">
+    <view class="page transaction">
         <transaction-result></transaction-result>
         <transaction-info></transaction-info>
         <transaction-bar @do-check="doCheck"></transaction-bar>
@@ -23,3 +23,7 @@
         }
     }
 </script>
+
+<style lang="less">
+    @import '../../config/css/index';
+</style>

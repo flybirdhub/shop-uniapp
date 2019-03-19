@@ -1,5 +1,5 @@
 <template>
-    <view class="category">
+    <view class="page category">
         <category-header></category-header>
         <category-left-side></category-left-side>
         <category-right-side></category-right-side>
@@ -18,3 +18,10 @@
         }
     }
 </script>
+
+<style lang="less">
+    @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/category/index';
+    /* #endif */
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <view class="index">
+    <view class="page index">
         <index-header></index-header>
         <index-banner></index-banner>
         <index-service></index-service>
@@ -36,6 +36,9 @@
 
 <style lang="less">
     @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/index/index';
+    /* #endif */
     .index{
         background: @bg-color;
     }

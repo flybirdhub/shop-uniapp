@@ -1,5 +1,5 @@
 <template>
-    <view class="goods">
+    <view class="page goods">
         <goods-header></goods-header>
         <goods-banner></goods-banner>
         <goods-info></goods-info>
@@ -36,3 +36,10 @@
         }
     }
 </script>
+
+<style lang="less">
+    @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/goods/index';
+    /* #endif */
+</style>

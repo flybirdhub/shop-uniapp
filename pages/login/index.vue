@@ -1,9 +1,9 @@
 <template>
-    <view class="login">
+    <view class="page login">
         <component-page-header></component-page-header>
         <view class="l-logo">
             <view class="l-wrap">
-                <img src="//yanxuan.nosdn.127.net/bd139d2c42205f749cd4ab78fa3d6c60.png" alt="">
+                <img src="../../static/app/logo.png" alt="">
             </view>
         </view>
         <view class="l-btn">
@@ -28,8 +28,11 @@
     }
 </script>
 
-<style lang="less" scoped>
-    @import '../../config/css/var';
+<style lang="less">
+    @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/login/index';
+    /* #endif */
     .login{
         height: 100vh;
         background: @bg-color;

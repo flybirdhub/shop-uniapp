@@ -49,7 +49,6 @@
                 display: flex;
                 align-items: center;
                 text{
-                    font-size: 28upx;
                     font-weight: 600;
                     color:#333;
                 }
@@ -62,9 +61,6 @@
                 display: flex;
                 align-items: center;
                 color:#666;
-                text{
-                    font-size: 28upx;
-                }
             }
         }
         .o-content{
@@ -81,7 +77,6 @@
                     color:#b4946d;
                 }
                 .i-text{
-                    font-size: 28upx;
                     &:last-child{
                         padding-top:10upx;
                         color:#666;

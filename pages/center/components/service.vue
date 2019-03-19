@@ -63,7 +63,6 @@
                 display: flex;
                 align-items: center;
                 text{
-                    font-size: 28upx;
                     font-weight: 600;
                     color:#333;
                 }
@@ -86,7 +85,6 @@
                        }
                         &:nth-child(2){
                             padding-top:15upx;
-                            font-size: 28upx;
                             color:#666;
                         }
                         &:nth-child(3){

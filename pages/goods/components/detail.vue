@@ -27,7 +27,6 @@
 <style lang="less" scoped>
     .goods-details{
         margin-bottom: 115upx;
-        font-size: 28upx;
         background: white;
         .d-tab{
             display: flex;
@@ -54,7 +53,7 @@
                 img{
                     display: block;
                     width: 100%;
-                    height: 390upx;
+                    height: 200upx;
                 }
             }
         }

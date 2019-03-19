@@ -1,5 +1,5 @@
 <template>
-    <view class="order">
+    <view class="page order">
         <order-type></order-type>
         <order-receive></order-receive>
     </view>
@@ -15,3 +15,10 @@
         }
     }
 </script>
+
+<style lang="less">
+    @import '../../config/css/index';
+    /* #ifdef APP-PLUS */
+    @import '../../platforms/app-plus/order/index';
+    /* #endif */
+</style>

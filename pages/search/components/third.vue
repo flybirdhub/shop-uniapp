@@ -35,9 +35,6 @@
         display: flex;
         flex-wrap: wrap;
         padding-top: 176upx;
-        /* #ifdef APP-PLUS */
-        padding-top: 246upx;
-        /* #endif */
         .t-item{
             position: relative;
             flex-basis: 50%;
@@ -60,7 +57,6 @@
                             white-space: nowrap;
                             overflow-x: hidden;
                             text-overflow: ellipsis;
-                            font-size: 28upx;
                             color:#845f3f;
                         }
                     }

@@ -28,7 +28,6 @@
         display: flex;
         width:100%;
         height: 110upx;
-        font-size: 28upx;
         background: white;
         .p-info{
             display: flex;
@@ -36,7 +35,6 @@
             flex:1;
             padding-left:28upx;
             .i-price{
-                font-size: 28upx;
                 color:#b60a0a;
             }
         }

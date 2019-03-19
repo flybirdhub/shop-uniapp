@@ -24,9 +24,6 @@
 <style lang="less" scoped>
     .index-banner {
         padding-top: 148upx;
-        /* #ifdef APP-PLUS */
-        padding-top: 218upx;
-        /* #endif */
         background: white;
         .b-swiper {
             height: 370upx;
