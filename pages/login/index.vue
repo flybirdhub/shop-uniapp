@@ -8,11 +8,11 @@
         </view>
         <view class="l-btn">
             <view class="b-item">
-                <i class="iconfont icon-weixin"></i>
+                <i class="eosfont">&#xe628;</i>
                 <text>微信授权登陆</text>
             </view>
             <view class="b-item">
-                <i class="iconfont icon-shouji"></i>
+                <i class="eosfont">&#xe64f;</i>
                 <text>手机号码登陆</text>
             </view>
         </view>
@@ -58,7 +58,7 @@
                 height: 94upx;
                 box-sizing: border-box;
                 border-radius: 4upx;
-                .iconfont{
+                .eosfont{
                     padding-right: 10upx;
                     font-size: 50upx;
                 }

@@ -6,7 +6,7 @@
             </view>
             <view class="h-right">
                 <text>98%满意</text>
-                <text class="iconfont icon-gengduo"></text>
+                <text class="eosfont">&#xe733;</text>
             </view>
         </view>
         <view class="e-content">
@@ -59,7 +59,7 @@
         </view>
         <view class="e-footer">
             <text>查看更多</text>
-            <text class="iconfont icon-gengduo"></text>
+            <text class="eosfont">&#xe733;</text>
         </view>
     </view>
 </template>
@@ -72,6 +72,7 @@
 <style lang="less">
     .goods-evaluate{
         margin-bottom: 10upx;
+        font-size: 28upx;
         .e-header{
             display: flex;
             justify-content: space-between;

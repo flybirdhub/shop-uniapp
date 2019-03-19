@@ -3,11 +3,11 @@
         <view class="g-group">
             <view class="g-header">
                 <view class="h-left">
-                    <text class="iconfont icon-xuanze"></text>
-                    <text>严选自营</text>
+                    <text class="eosfont">&#xe63d;</text>
+                    <text class="l-text">严选自营</text>
                 </view>
                 <view class="h-right">
-                    <text class="iconfont icon-tubiao-"></text>
+                    <text class="eosfont">&#xe652;</text>
                     <text>满150.00免运费</text>
                 </view>
             </view>
@@ -16,7 +16,7 @@
                      :key="key"
                      v-for="(item, key) in 2">
                     <view class="i-select">
-                        <text class="iconfont icon-xuanze"></text>
+                        <text class="eosfont">&#xe63d;</text>
                     </view>
                     <view class="i-pic">
                         <img src="http://yanxuan.nosdn.127.net/e216153c4c420a6bfaa754e6220981cd.png?imageView&quality=65&thumbnail=330x330" alt="">
@@ -52,6 +52,9 @@
 <style lang="less">
     .cart-goods {
         padding-top: 88upx;
+        /* #ifdef APP-PLUS */
+        padding-top: 158upx;
+        /* #endif */
         .g-group {
             background: white;
             .g-header {
@@ -63,10 +66,10 @@
                 .h-left {
                     display: flex;
                     align-items: center;
-                    .iconfont {
+                    .eosfont {
                         color: #b60a0a;
                     }
-                    text {
+                    .l-text{
                         padding-left: 10upx;
                         font-size: 28upx;
                         font-weight: 600;
@@ -79,6 +82,7 @@
                     color: #666;
                     text {
                         padding-left: 10upx;
+                        font-size: 28upx;
                     }
                 }
             }

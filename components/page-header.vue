@@ -1,14 +1,14 @@
 <template>
     <view class="page-header">
         <view class="h-left">
-            <text class="iconfont icon-shouye"></text>
+            <text class="eosfont">&#xe65f;</text>
         </view>
         <view class="h-mid">
             <text>网易严选</text>
         </view>
         <view class="h-right">
-            <text class="iconfont icon-sousuo"></text>
-            <text class="iconfont icon-gouwuche"></text>
+            <text class="eosfont">&#xe60c;</text>
+            <text class="eosfont">&#xe601;</text>
         </view>
     </view>
 </template>

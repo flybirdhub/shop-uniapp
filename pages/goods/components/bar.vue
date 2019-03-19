@@ -2,15 +2,15 @@
     <view class="goods-action border-1px-top">
         <view class="a-left">
             <view class="l-item">
-                <text class="iconfont icon-kefu"></text>
+                <text class="eosfont">&#xe636;</text>
                 <text class="i-text">客服</text>
             </view>
             <view class="l-item">
-                <text class="iconfont icon-shoucang1"></text>
+                <text class="eosfont">&#xe62a;</text>
                 <text class="i-text">收藏</text>
             </view>
             <view class="l-item">
-                <text class="iconfont icon-gouwuche1"></text>
+                <text class="eosfont">&#xe601;</text>
                 <text class="i-text">购物车</text>
             </view>
         </view>
@@ -25,6 +25,10 @@
     </view>
 </template>
 
+<script type="text/ecmascript-6">
+    export default {}
+</script>
+
 <style lang="less" scoped>
     .goods-action{
         position: fixed;
@@ -35,6 +39,7 @@
         width:100%;
         box-sizing: border-box;
         padding:0 28upx;
+        font-size: 28upx;
         background: white;
         .a-left{
             display: flex;

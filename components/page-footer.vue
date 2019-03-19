@@ -11,6 +11,10 @@
     </div>
 </template>
 
+<script type="text/ecmascript-6">
+    export default {}
+</script>
+
 <style lang="less" scoped>
     .page-footer{
         padding:54upx 20upx 28upx 20upx;
@@ -28,6 +32,7 @@
                 line-height: 60upx;
                 box-sizing: border-box;
                 border:1upx solid white;
+                font-size: 32upx;
                 &:last-child{
                     margin-left:50upx;
                 }
@@ -43,6 +48,7 @@
             text{
                 line-height: 40upx;
                 text-align: center;
+                font-size: 28upx;
             }
         }
     }

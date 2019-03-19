@@ -2,13 +2,13 @@
     <view class="number">
         <view class="n-wrap">
             <view class="w-sub">
-                <text class="iconfont icon-jianshao"></text>
+                <text class="eosfont">&#xe619;</text>
             </view>
             <view class="w-text">
                 <text>3</text>
             </view>
             <view class="w-add">
-                <i class="iconfont icon-tianjia"></i>
+                <i class="eosfont">&#xe63a;</i>
             </view>
         </view>
     </view>

@@ -6,29 +6,33 @@
             </view>
             <view class="h-right" @click="nav('/pages/order/index')">
                 <text>全部订单</text>
-                <text class="iconfont icon-gengduo"></text>
+                <text class="eosfont">&#xe733;</text>
             </view>
         </view>
         <view class="o-content border-1px-top">
             <view class="c-item">
-                <text class="iconfont icon-daifukuan"></text>
-                <text>待付款</text>
+                <text class="eosfont">&#xe604;</text>
+                <text class="i-text">待付款</text>
             </view>
             <view class="c-item">
-                <text class="iconfont icon-daishouhuo"></text>
-                <text>待收货</text>
+                <text class="eosfont">&#xe623;</text>
+                <text class="i-text">待收货</text>
             </view>
             <view class="c-item">
-                <text class="iconfont icon-daipingjia"></text>
-                <text>待评价</text>
+                <text class="eosfont">&#xe608;</text>
+                <text class="i-text">待评价</text>
             </view>
             <view class="c-item">
-                <text class="iconfont icon-tuihuo"></text>
-                <text>退款/售后</text>
+                <text class="eosfont">&#xe609;</text>
+                <text class="i-text">退款/售后</text>
             </view>
         </view>
     </view>
 </template>
+
+<script type="text/ecmascript-6">
+    export default {}
+</script>
 
 <style lang="less" scoped>
     .center-order{
@@ -72,11 +76,12 @@
                 justify-content: center;
                 flex:1;
                 height: 166upx;
-                .iconfont{
+                .eosfont{
                     font-size: 60upx;
                     color:#b4946d;
                 }
-                text{
+                .i-text{
+                    font-size: 28upx;
                     &:last-child{
                         padding-top:10upx;
                         color:#666;

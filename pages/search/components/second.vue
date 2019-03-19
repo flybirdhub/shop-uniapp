@@ -21,7 +21,7 @@
                     </view>
                     <view class="r-buy">
                         <view>选购</view>
-                        <i class="iconfont icon-gengduo"></i>
+                        <i class="eosfont">&#xe733;</i>
                     </view>
                 </view>
             </view>
@@ -59,6 +59,10 @@
 <style lang="less" scoped>
     .search-second{
         padding-top: 88upx;
+        /* #ifdef APP-PLUS */
+        padding-top: 158upx;
+        /* #endif */
+        font-size: 28upx;
         .s-section{
             background: #f4f4f4;
             .s-header{

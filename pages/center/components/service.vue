@@ -8,40 +8,44 @@
         <view class="s-content">
             <view class="c-line border-1px-top">
                 <view class="l-item">
-                    <text class="iconfont icon-pintuangou"></text>
+                    <text class="eosfont">&#xe635;</text>
                     <text>拼团订单</text>
                 </view>
                 <view class="l-item">
-                    <text class="iconfont icon-youhuiquan"></text>
+                    <text class="eosfont">&#xe63f;</text>
                     <text>优惠券</text>
                 </view>
                 <view class="l-item">
-                    <text class="iconfont icon-invite-disease"></text>
+                    <text class="eosfont">&#xe630;</text>
                     <text>新人邀请</text>
                     <text>立享红包</text>
                 </view>
                 <view class="l-item">
-                    <text class="iconfont icon-fenxiang"></text>
+                    <text class="eosfont">&#xe632;</text>
                     <text>分享app</text>
                 </view>
             </view>
             <view class="c-line border-1px-top">
                 <view class="l-item">
-                    <text class="iconfont icon-shoucang"></text>
+                    <text class="eosfont">&#xe62a;</text>
                     <text>我的收藏</text>
                 </view>
                 <view class="l-item">
-                    <text class="iconfont icon-iconfontdizhi"></text>
+                    <text class="eosfont">&#xe61d;</text>
                     <text>地址管理</text>
                 </view>
                 <view class="l-item">
-                    <text class="iconfont icon-opinion"></text>
+                    <text class="eosfont">&#xe615;</text>
                     <text>意见反馈</text>
                 </view>
             </view>
         </view>
     </view>
 </template>
+
+<script type="text/ecmascript-6">
+    export default {}
+</script>
 
 <style lang="less" scoped>
     .center-service{
@@ -82,11 +86,12 @@
                        }
                         &:nth-child(2){
                             padding-top:15upx;
+                            font-size: 28upx;
                             color:#666;
                         }
                         &:nth-child(3){
                             padding-top:10upx;
-                            font-size: 16upx;
+                            font-size: 24upx;
                             color:#999;
                         }
                     }

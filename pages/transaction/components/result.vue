@@ -1,9 +1,13 @@
 <template>
     <div class="transaction-result">
-        <i class="iconfont icon-chenggong"></i>
+        <i class="eosfont">&#xe62e;</i>
         <h4>交易成功</h4>
     </div>
 </template>
+
+<script type="text/ecmascript-6">
+    export default {}
+</script>
 
 <style lang="less" scoped>
     .transaction-result{

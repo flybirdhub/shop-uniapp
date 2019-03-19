@@ -1,11 +1,15 @@
 <template>
     <view class="category-header border-1px-bottom">
         <view class="header-search">
-            <text class="iconfont icon-sousuo"></text>
+            <text class="eosfont">&#xe60c;</text>
             <text class="keyword">润米超级品牌日</text>
         </view>
     </view>
 </template>
+
+<script type="text/ecmascript-6">
+    export default {}
+</script>
 
 <style lang="less" scoped>
     .category-header{
@@ -14,6 +18,9 @@
         justify-content: center;
         height: 88upx;
         padding:0 28upx;
+        /* #ifdef APP-PLUS */
+       padding-top: 70upx;
+        /* #endif */
         background: white;
         .header-search{
             display: flex;
@@ -23,11 +30,12 @@
             padding-left:28upx;
             border-radius: 7upx;
             background: #f4f4f4;
-            .iconfont{
+            .eosfont{
                 color:#666;
             }
             .keyword{
                 padding-left:20px;
+                font-size: 28upx;
                 color:#999;
             }
         }

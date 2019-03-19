@@ -6,7 +6,7 @@
             </div>
             <div class="h-right">
                 <text>更多</text>
-                <text class="iconfont icon-gengduo"></text>
+                <text class="eosfont">&#xe733;</text>
             </div>
         </view>
         <view class="n-content">
@@ -23,6 +23,10 @@
     </view>
 </template>
 
+<script type="text/ecmascript-6">
+    export default {}
+</script>
+
 <style lang="less" scoped>
     .index-newest {
         margin-top: 20upx;
@@ -33,6 +37,16 @@
             justify-content: space-between;
             height: 100upx;
             padding:0 30upx;
+            .h-left{
+                text{
+                    font-size: 34upx;
+                }
+            }
+            .h-right{
+                text{
+                    font-size: 34upx;
+                }
+            }
         }
         .n-content{
             display: flex;
@@ -55,6 +69,9 @@
                     align-items: center;
                     height: 41upx;
                     margin-top: 10upx;
+                    text{
+                        font-size: 28upx;
+                    }
                 }
                 &:not(:nth-child(3n+1)){
                     margin-left: 20upx;

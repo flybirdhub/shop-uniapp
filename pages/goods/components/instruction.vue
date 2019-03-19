@@ -7,21 +7,21 @@
             <view class="c-mid">
                 <view class="instruction">
                     <view class="i-item">
-                        <text class="iconfont icon-xuanze1"></text>
+                        <text class="eosfont">&#xe62e;</text>
                         <text class="text">小米有品甄选精品</text>
                     </view>
                     <view class="i-item">
-                        <text class="iconfont icon-xuanze1"></text>
+                        <text class="eosfont">&#xe62e;</text>
                         <text class="text">由 小米 发货并提供售后</text>
                     </view>
                     <view class="i-item">
-                        <text class="iconfont icon-xuanze1"></text>
+                        <text class="eosfont">&#xe62e;</text>
                         <text class="text">支持7天无理由退货（请参考商品详情-常见问题）</text>
                     </view>
                 </view>
             </view>
             <view class="c-right">
-                <i class="iconfont icon-gengduo"></i>
+                <text class="eosfont">&#xe733;</text>
             </view>
         </view>
     </view>
@@ -35,6 +35,7 @@
 <style lang="less" scoped>
     .goods-instruction{
         margin-bottom:10upx;
+        font-size: 28upx;
         background: white;
         .g-cell{
             display: flex;
@@ -56,8 +57,8 @@
                     padding:20upx 0;
                     .i-item{
                         display: flex;
-                        .iconfont{
-                            font-size: 24upx;
+                        .eosfont{
+                            font-size: 32upx;
                             color:#ab8959;
                         }
                         .text{

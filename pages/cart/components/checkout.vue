@@ -2,7 +2,7 @@
     <div class="cart-checkout">
         <div class="c-info">
             <div class="i-left">
-                <text class="iconfont icon-xuanze"></text>
+                <text class="eosfont">&#xe63d;</text>
                 <span>全选</span>
             </div>
             <div class="i-right">
@@ -30,11 +30,15 @@
     .cart-checkout{
         position: fixed;
         bottom:50px;
+        /* #ifdef APP-PLUS */
+        bottom:0;
+        /* #endif */
         left:0;
         display: flex;
         width:100%;
         height: 110upx;
         background: white;
+        font-size: 28upx;
         .c-info{
             position: relative;
             flex:1;
@@ -45,7 +49,7 @@
                 transform: translateY(-50%);
                 display: flex;
                 align-items: center;
-                .iconfont{
+                .eosfont{
                     color:#b60a0a;
                 }
             }

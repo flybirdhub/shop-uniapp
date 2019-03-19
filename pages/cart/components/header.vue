@@ -24,6 +24,9 @@
         justify-content: center;
         height: 88upx;
         width:100%;
+        /* #ifdef APP-PLUS */
+        padding-top: 70upx;
+        /* #endif */
         background: white;
         .h-mid{
             text{
@@ -34,9 +37,13 @@
         .h-right{
             position: absolute;
             top:50%;
+            /* #ifdef APP-PLUS */
+            top:114upx;
+            /* #endif */
             right:30upx;
             transform: translateY(-50%);
             text{
+                font-size: 32upx;
                 color:#b60a0a;
             }
         }

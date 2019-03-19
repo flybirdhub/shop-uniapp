@@ -6,7 +6,7 @@
             </div>
             <div class="h-right">
                 <text>更多</text>
-                <text class="iconfont icon-gengduo"></text>
+                <text class="eosfont">&#xe733;</text>
             </div>
         </view>
         <view class="s-content">
@@ -36,6 +36,16 @@
             justify-content: space-between;
             height: 100upx;
             padding:0 30upx;
+            .h-left{
+                text{
+                    font-size: 34upx;
+                }
+            }
+            .h-right{
+                text{
+                    font-size: 34upx;
+                }
+            }
         }
         .s-content{
             display: flex;
@@ -55,6 +65,7 @@
                     align-items: center;
                     text{
                         &:first-child{
+                            font-size: 34upx;
                             color:#333;
                         }
                         &:last-child{

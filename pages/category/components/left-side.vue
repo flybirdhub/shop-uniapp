@@ -26,6 +26,9 @@
     .category-left-side{
         position: absolute;
         top:88upx;
+        /* #ifdef APP-PLUS */
+        top: 158upx;
+        /* #endif */
         bottom:0;
         width:167upx;
         background: #f4f4f4;
@@ -40,6 +43,7 @@
                 line-height: 50upx;
                 text-align: center;
                 flex:1;
+                font-size: 28upx;
                 color:#666;
             }
             &-active{

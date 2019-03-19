@@ -2,12 +2,12 @@
     <view class="search-header">
         <view class="h-top">
             <view class="t-left" @click="back">
-                <i class="iconfont icon-fanhui"></i>
+                <i class="eosfont">&#xe61f;</i>
             </view>
             <view class="t-search">
-                <i class="iconfont icon-sousuo"></i>
+                <i class="eosfont">&#xe60c;</i>
                 <input type="search" placeholder="小米超级品牌日" v-model="keyword">
-                <i class="iconfont icon-shanchu clear"></i>
+                <i class="eosfont clear">&#xe600;</i>
             </view>
             <view class="t-right" @click="search">
                 <text>搜索</text>
@@ -19,8 +19,8 @@
                     <text>综合</text>
                 </view>
                 <view class="i-icon i-icon-down">
-                    <text class="iconfont icon-tubiaozhizuo-"></text>
-                    <text class="iconfont icon-tubiaozhizuo-1"></text>
+                    <text class="eosfont">&#xe606;</text>
+                    <text class="eosfont">&#xe60b;</text>
                 </view>
             </view>
             <view class="b-item">
@@ -65,6 +65,10 @@
         width:100%;
         box-sizing: border-box;
         padding: 0 28upx;
+        /* #ifdef APP-PLUS */
+        padding-top: 70upx;
+        /* #endif */
+        font-size: 28upx;
         background: white;
         z-index: 10;
         .h-top {

@@ -10,7 +10,7 @@
             </view>
         </view>
         <view class="a-right">
-            <text class="iconfont icon-gengduo"></text>
+            <text class="eosfont">&#xe733;</text>
         </view>
     </view>
 </template>
@@ -26,6 +26,7 @@
         height: 214upx;
         padding:90upx 28upx 0 28upx;
         margin-bottom: 10upx;
+        font-size: 28upx;
         background: white;
         .a-left{
             display: flex;

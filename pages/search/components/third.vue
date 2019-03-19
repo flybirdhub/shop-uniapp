@@ -35,6 +35,9 @@
         display: flex;
         flex-wrap: wrap;
         padding-top: 176upx;
+        /* #ifdef APP-PLUS */
+        padding-top: 246upx;
+        /* #endif */
         .t-item{
             position: relative;
             flex-basis: 50%;

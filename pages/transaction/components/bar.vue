@@ -28,6 +28,7 @@
         display: flex;
         width:100%;
         height: 110upx;
+        font-size: 28upx;
         background: white;
         .a-info{
             display: flex;

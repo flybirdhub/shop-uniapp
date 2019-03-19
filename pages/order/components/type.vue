@@ -40,6 +40,9 @@
     .order-type{
         position: fixed;
         top:44px;
+        /* #ifdef APP-PLUS */
+        top:0;
+        /* #endif */
         left:0;
         display: flex;
         justify-content: space-between;
@@ -53,6 +56,7 @@
             display: flex;
             align-items: center;
             flex-grow: 0;
+            font-size: 28upx;
             .i-text{
                 color:#666;
             }

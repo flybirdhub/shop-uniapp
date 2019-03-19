@@ -8,14 +8,13 @@
                 <text>1</text>
             </view>
             <view class="c-right">
-                <text class="iconfont icon-gengduo"></text>
+                <text class="eosfont">&#xe733;</text>
             </view>
         </view>
     </view>
 </template>
 
 <script type="text/ecmascript-6">
-
     export default {
     }
 </script>
@@ -23,6 +22,7 @@
 <style lang="less" scoped>
     .goods-count {
         margin-bottom: 10upx;
+        font-size: 28upx;
         background: white;
         .g-cell{
             display: flex;

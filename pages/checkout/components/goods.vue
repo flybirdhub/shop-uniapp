@@ -26,7 +26,7 @@
                         <text>优惠券/优惠码</text>
                     </view>
                     <view class="c-right">
-                        <text class="iconfont icon-gengduo"></text>
+                        <text class="eosfont">&#xe733;</text>
                     </view>
                 </view>
                 <view class="checkout-cell">
@@ -35,7 +35,7 @@
                     </view>
                     <view class="c-right">
                         <text>快递配送</text>
-                        <text class="iconfont icon-gengduo"></text>
+                        <text class="eosfont">&#xe733;</text>
                     </view>
                 </view>
                 <view class="checkout-cell">
@@ -44,7 +44,7 @@
                     </view>
                     <view class="c-right">
                         <text>不限时间</text>
-                        <text class="iconfont icon-gengduo"></text>
+                        <text class="eosfont">&#xe733;</text>
                     </view>
                 </view>
                 <view class="checkout-cell">
@@ -53,7 +53,7 @@
                     </view>
                     <view class="c-right">
                         <text>个人电子发票</text>
-                        <text class="iconfont icon-gengduo"></text>
+                        <text class="eosfont">&#xe733;</text>
                     </view>
                 </view>
             </view>
@@ -97,6 +97,7 @@
                     }
                     .g-info{
                         flex:1;
+                        font-size: 28upx;
                         .i-name{
                             padding-top:20upx;
                             text{
@@ -110,6 +111,7 @@
                         flex-direction: column;
                         align-items: flex-end;
                         flex-basis: 70upx;
+                        font-size: 28upx;
                         .single-price{
                             padding-top:20upx;
                             color:#666;
@@ -137,6 +139,7 @@
                     .c-right{
                         display: flex;
                         align-items: center;
+                        font-size: 28upx;
                         color:#666;
                     }
                     &:not(:first-child){

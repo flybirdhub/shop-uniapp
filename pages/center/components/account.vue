@@ -9,7 +9,7 @@
             </view>
         </view>
         <view class="a-right">
-            <text class="iconfont icon-gengduo"></text>
+            <text class="eosfont">&#xe733;</text>
         </view>
     </view>
 </template>
@@ -28,6 +28,10 @@
     .center-account{
         position: relative;
         height: 277upx;
+        /* #ifdef APP-PLUS */
+        height: 347upx;
+        padding-top: 70upx;
+        /* #endif */
         background: url('https://m.mi.com/static/img/bg.63c8e19851.png') center 0 #f37d0f;
         background-size: 100% 100%;
         .a-left{

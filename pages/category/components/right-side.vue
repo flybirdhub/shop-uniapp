@@ -52,6 +52,7 @@
                     position: relative;
                     display: inline-block;
                     padding:0 10upx;
+                    font-size: 28upx;
                     color:#666;
                     &::before{
                         position: absolute;
@@ -94,6 +95,7 @@
                         justify-content: center;
                         text{
                             text-align:center;
+                            font-size: 28upx;
                             color:#333;
                         }
                     }

@@ -9,7 +9,7 @@
                 <text>4G 米兰白</text>
             </view>
             <view class="c-right">
-                <text class="iconfont icon-gengduo"></text>
+                <text class="eosfont">&#xe733;</text>
             </view>
         </view>
     </view>
@@ -24,6 +24,7 @@
 <style lang="less" scoped>
     .goods-spec{
         margin-bottom:10upx;
+        font-size: 28upx;
         background: white;
         .g-cell{
             display: flex;

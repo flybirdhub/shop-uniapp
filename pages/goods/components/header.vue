@@ -1,7 +1,7 @@
 <template>
     <view class="goods-header">
         <view class="h-left">
-            <text class="iconfont icon-fanhui" @click="back"></text>
+            <text class="eosfont" @click="back">&#xe61f;</text>
         </view>
         <view class="h-middle">
             <view class="m-item m-item-active">
@@ -15,7 +15,7 @@
             </view>
         </view>
         <view class="h-right">
-            <text class="iconfont icon-shouye"></text>
+            <text class="eosfont">&#xe65f;</text>
         </view>
     </view>
 </template>
@@ -34,6 +34,10 @@
         display: flex;
         justify-content: center;
         height: 88upx;
+        /* #ifdef APP-PLUS */
+        margin-top: 70upx;
+        /* #endif */
+        font-size: 28upx;
         z-index: 10;
         .h-left {
             position: absolute;

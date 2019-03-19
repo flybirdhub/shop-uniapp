@@ -21,11 +21,11 @@
                     <text>历史纪录</text>
                 </view>
                 <view class="h-right">
-                    <i class="iconfont icon-qingchu"></i>
+                    <i class="eosfont">&#xe631;</i>
                 </view>
             </view>
             <view class="s-content">
-                <view class="first-history">
+                <view class="f-history">
                     <text>华为手机</text>
                 </view>
             </view>
@@ -43,6 +43,10 @@
     @import '../../../config/css/var';
     .search-first{
         padding-top: 88upx;
+        /* #ifdef APP-PLUS */
+        padding-top: 158upx;
+        /* #endif */
+        font-size: 28upx;
         .s-section{
             background: #f4f4f4;
             .s-header{

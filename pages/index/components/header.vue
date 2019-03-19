@@ -1,13 +1,13 @@
 <template>
-    <view class="home-header">
+    <view class="index-header">
         <view class="h-top">
             <view class="t-logo">
                 <img src="@/static/app/navi_title_v4.png">
             </view>
             <view class="t-search" @click="nav('/pages/search/index')">
                 <view class="s-left">
-                    <text class="iconfont icon-sousuo"></text>
-                    <text>搜索好品，共有16523件商品</text>
+                    <text class="eosfont">&#xe60c;</text>
+                    <text class="l-text">搜索好品，共有16523件商品</text>
                 </view>
             </view>
         </view>
@@ -32,18 +32,21 @@
 </script>
 
 <style lang="less">
-    .home-header {
+    .index-header {
         position: fixed;
         top:0;
         left:0;
         width:100%;
         z-index: 1000;
+        background: white;
         .h-top {
             display: flex;
             align-items: center;
             height: 88upx;
             padding: 0 27upx;
-            background: white;
+            /* #ifdef APP-PLUS */
+            padding-top: 70upx;
+            /* #endif */
             .t-logo {
                 flex-basis: 160upx;
                 box-sizing: border-box;
@@ -65,11 +68,12 @@
                     transform: translate(-50%, -50%);
                     display: flex;
                     align-items: center;
-                    i {
+                    .eosfont {
                         color: #909090;
                     }
-                    text {
+                    .l-text {
                         white-space: nowrap;
+                        font-size: 28upx;
                         color: #c8c8c8;
                     }
                 }
@@ -78,7 +82,6 @@
         .h-bottom {
             width: 100%;
             overflow-x: hidden;
-            background: white;
             .b-tabs {
                 white-space: nowrap;
                 padding: 0 30upx;
@@ -90,6 +93,7 @@
                     line-height: 60upx;
                     text {
                         font-weight: 400;
+                        font-size: 28upx;
                     }
                     &-active {
                         position: relative;

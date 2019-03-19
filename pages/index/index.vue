@@ -35,7 +35,7 @@
 </script>
 
 <style lang="less">
-    @import '../../config/css/var';
+    @import '../../config/css/index';
     .index{
         background: @bg-color;
     }

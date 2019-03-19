@@ -1,5 +1,5 @@
 <template>
-    <div class="home-banner">
+    <div class="index-banner">
         <swiper class="b-swiper" :indicator-dots="true" :autoplay="true" interval="2000" duration="3000">
             <swiper-item>
                 <view class="s-item">
@@ -22,8 +22,11 @@
 </script>
 
 <style lang="less" scoped>
-    .home-banner {
+    .index-banner {
         padding-top: 148upx;
+        /* #ifdef APP-PLUS */
+        padding-top: 218upx;
+        /* #endif */
         background: white;
         .b-swiper {
             height: 370upx;
